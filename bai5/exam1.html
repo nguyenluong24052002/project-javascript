@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        /*Chuyển giá trị từ String sang Number*/
+        let a = '10';
+        let b = '5';
+        let c = 'test'
+        console. log(Number(a) + Number(b))
+        console. log(Number(c))
+
+         /*Chuyển từ Number sang Boolean*/
+         let isAdmin = 1;
+         console. log(typeof Boolean(isAdmin), Boolean(isAdmin)) 
+         
+         /*Từ Number về String*/
+         let numberone = 10;
+         console.log(typeof String(numberone), String(numberone) +1)
+
+         /*Chuyển từ String sang Object hoặc Object sang String*/
+         let students = [
+            {name:'nguyen van A '},
+            {name:'nguyen van B'},
+            {name:'nguyen van C'},
+         ]
+
+         let studentsString = JSON.stringify(students)
+         let studentsObject = JSON.parse(studentsString)
+         console. log(typeof studentsObject)
+
+         /*Chuyển về số nguyên*/
+         let numbertwo = 10.5;
+
+         console.log(parseInt(numbertwo))
+
+
+
+         console.log( `hello ${"name"}` )
+    </script>
+</body>
+</html>
