@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+ <link rel="stylesheet" type="text/css" href="./css/student.css">
+</head>
+<body onload="renderlistStudent()">
+<div class="form-student">
+  <h3>Thông Tin Sinh Viên</h3>
+  <label for="">Họ Và Tên</label>
+  <input type="text" name="" id="fullname">
+  <span id="fullname-error" class="error"></span>
+  <br/>
+  
+  <label for="">Địa Chỉ Email</label>
+  <input type="text" name="" id="email">
+  <span id="email-error" class="error"></span>
+  <br/>
+
+  <label for="">Số Điện Thoại</label>
+  <input type="text" name="" id="phone">
+  <span id="phone-error" class="error"></span>
+  <br/>
+
+  <label for="">Địa Chỉ</label>
+  <input type="text" name="" id="address">
+  <span id="address-error" class="error"></span>
+  <br/>
+
+  <label for="">Giới Tính</label>
+  <input type="radio" name="gender" id="male" value="1"> Nam 
+  <input type="radio" name="gender" id="famale" value="2"> Nữ
+  <span id="gender-error" class="error"></span>
+  <br/>
+
+  <label for="">&nbsp;</label>
+  <button onclick="save()">Lưu Lại</button>
+</div>
+
+<div class="list-student" id="list-student">
+  <h3>Danh Sách Sinh Viên</h3>
+  <table id="grid-students" width="90%" border="1" cellspacing="0" cellspadding="0">
+  </table>
+</div>
+<script src="
+https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
+"></script>
+  <script src="./js/bai14.js"></script>
+</body>
+</html>
