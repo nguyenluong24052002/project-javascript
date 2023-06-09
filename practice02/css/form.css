@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#form-container {
+    width: 500px;
+    border: none;
+    margin: 50px auto;
+    padding: 20px;
+    background: #faefef;
+}
+
+.input-item input {
+    padding: 5px;
+    width: 420px;
+    margin-bottom: 10px;
+    border: 1px solid #d6cfcf;
+}
+
+.input-item button {
+    padding: 5px;
+    width: 50px;
+    margin-left: 10px;
+    border: 1px solid chocolate;
+    color: chocolate;
+} 
+
+#form-container #add-btn {
+    padding: 5px;
+    width: 50px;
+    border: 1px solid chocolate;
+    color: chocolate;
+    display: block;
+}
+
+#form-container #save-btn {
+    padding: 5px;
+    width: 50px;
+    background: chocolate;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    display: block;
+    margin: 0px auto;
+}
+
